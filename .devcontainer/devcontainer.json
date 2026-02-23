@@ -1,0 +1,8 @@
+{
+  "name": "Python 3",
+  // use the latest python image
+  "image": "mcr.microsoft.com/devcontainers/python",
+  // install libs after the creation of the environement 
+  // by using a simple bash command
+  "postCreateCommand": "./.devcontainer/postCreateCommand.sh"
+}
