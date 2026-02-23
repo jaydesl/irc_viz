@@ -8,8 +8,8 @@
   ],
   // set default python path
   "settings": {
-    "python.defaultInterpreterPath": "/usr/local/bin/python"
+    "python.defaultInterpreterPath": "python"
   },
   // install libs after the creation of the environment 
-  "postCreateCommand": "pip install numpy pandas matplotlib"
+  "postCreateCommand": "python -m pip install numpy pandas matplotlib"
 }
