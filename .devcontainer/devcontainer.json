@@ -7,6 +7,5 @@
     "ms-toolsai.jupyter"
   ],
   // install libs after the creation of the environment 
-  // by using a simple bash command
-  "postCreateCommand": "./.devcontainer/postCreateCommand.sh"
+  "postCreateCommand": "pip install numpy pandas matplotlib"
 }
